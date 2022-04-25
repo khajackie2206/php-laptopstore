@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:lightskyblue;
+    z-index: 1;
+    list-style: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#card{
+    margin-left: 20px;
+}
+#login{
+    margin-left: 20px;
+}
+.cover {
+    border: 2px solid lightgray;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+
+}
+.add_data{
+    margin: auto;
+}
+body{
+    background-image: url("img/office.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer {
+    margin-top:40px;
+    border:1px solid lightgrey;
+    padding:20px;
+    padding-left:50px;
+    background-color: #F5F5F5;
+}
