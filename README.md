@@ -1,2 +1,2 @@
-# php_laptopstore
+# php-laptopstore
 My first website project
